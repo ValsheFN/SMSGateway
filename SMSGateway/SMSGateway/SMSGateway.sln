@@ -9,6 +9,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMSGateway.Client", "Client
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMSGateway.Shared", "Shared\SMSGateway.Shared.csproj", "{5F575070-7B04-4038-9BD9-901F9054BB9C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMSGateway.Server.Models", "..\SMSGateway.Server.Models\SMSGateway.Server.Models.csproj", "{B2D137F9-47C9-4A0F-97EF-84E86C4D0721}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMSGateway.Server.Infrastructure", "..\SMSGateway.Server.Infrastructure\SMSGateway.Server.Infrastructure.csproj", "{5DAEE9C7-3B1D-4F33-B8F7-11BD57A5875C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMSGateway.Server.Services", "..\SMSGateway.Server.Services\SMSGateway.Server.Services.csproj", "{1806B586-4AC5-4EA4-AD93-9312BC227174}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMSGateway.Repositories", "..\SMSGateway.Repositories\SMSGateway.Repositories.csproj", "{72FAAF96-0448-487C-B0AE-E86156502B49}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +35,22 @@ Global
 		{5F575070-7B04-4038-9BD9-901F9054BB9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F575070-7B04-4038-9BD9-901F9054BB9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F575070-7B04-4038-9BD9-901F9054BB9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2D137F9-47C9-4A0F-97EF-84E86C4D0721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2D137F9-47C9-4A0F-97EF-84E86C4D0721}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2D137F9-47C9-4A0F-97EF-84E86C4D0721}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2D137F9-47C9-4A0F-97EF-84E86C4D0721}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DAEE9C7-3B1D-4F33-B8F7-11BD57A5875C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DAEE9C7-3B1D-4F33-B8F7-11BD57A5875C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DAEE9C7-3B1D-4F33-B8F7-11BD57A5875C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DAEE9C7-3B1D-4F33-B8F7-11BD57A5875C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1806B586-4AC5-4EA4-AD93-9312BC227174}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1806B586-4AC5-4EA4-AD93-9312BC227174}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1806B586-4AC5-4EA4-AD93-9312BC227174}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1806B586-4AC5-4EA4-AD93-9312BC227174}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72FAAF96-0448-487C-B0AE-E86156502B49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72FAAF96-0448-487C-B0AE-E86156502B49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72FAAF96-0448-487C-B0AE-E86156502B49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72FAAF96-0448-487C-B0AE-E86156502B49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

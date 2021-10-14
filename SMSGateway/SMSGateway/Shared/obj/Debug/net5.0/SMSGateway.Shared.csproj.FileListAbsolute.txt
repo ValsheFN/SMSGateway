@@ -1,0 +1,12 @@
+C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway\Shared\bin\Debug\net5.0\SMSGateway.Shared.deps.json
+C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway\Shared\bin\Debug\net5.0\SMSGateway.Shared.dll
+C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway\Shared\bin\Debug\net5.0\ref\SMSGateway.Shared.dll
+C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway\Shared\bin\Debug\net5.0\SMSGateway.Shared.pdb
+C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway\Shared\obj\Debug\net5.0\SMSGateway.Shared.csproj.AssemblyReference.cache
+C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway\Shared\obj\Debug\net5.0\SMSGateway.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway\Shared\obj\Debug\net5.0\SMSGateway.Shared.AssemblyInfoInputs.cache
+C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway\Shared\obj\Debug\net5.0\SMSGateway.Shared.AssemblyInfo.cs
+C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway\Shared\obj\Debug\net5.0\SMSGateway.Shared.csproj.CoreCompileInputs.cache
+C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway\Shared\obj\Debug\net5.0\SMSGateway.Shared.dll
+C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway\Shared\obj\Debug\net5.0\ref\SMSGateway.Shared.dll
+C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway\Shared\obj\Debug\net5.0\SMSGateway.Shared.pdb
