@@ -13,6 +13,9 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using SMSGateway.Server.Models.UsersSeeding;
+using SMSGateway.Repositories;
+using SMSGateway.Server.Infrastructure;
+using SMSGateway.Server.Services;
 
 namespace SMSGateway.Server
 {
@@ -63,6 +66,16 @@ namespace SMSGateway.Server
                 }
             );
 
+            services.AddScoped<IUnitOfWork, EfUnitOfWork>();
+
+            services.AddScoped(sp => new AuthOptions
+            {
+                Audience = Configuration["AuthSettings:Audience"],
+                Issuer = Configuration["AuthSettings:Issuer"],
+                Key = Configuration["AuthSettings:Key"]
+            });
+
+            services.AddScoped<IUsersService, UsersService>();
             services.AddControllersWithViews();
             services.AddRazorPages();
 

@@ -40,7 +40,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.11",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.11",
           "SMSGateway.Client": "1.0.0",
+          "SMSGateway.Repositories": "1.0.0",
+          "SMSGateway.Server.Infrastructure": "1.0.0",
           "SMSGateway.Server.Models": "1.0.0",
+          "SMSGateway.Server.Services": "1.0.0",
           "SMSGateway.Shared": "1.0.0",
           "Swashbuckle.AspNetCore": "6.2.2",
           "Swashbuckle.AspNetCore.Annotations": "6.2.2",
@@ -1607,6 +1610,25 @@
           "SMSGateway.Client.dll": {}
         }
       },
+      "SMSGateway.Repositories/1.0.0": {
+        "dependencies": {
+          "SMSGateway.Server.Models": "1.0.0"
+        },
+        "runtime": {
+          "SMSGateway.Repositories.dll": {}
+        },
+        "compile": {
+          "SMSGateway.Repositories.dll": {}
+        }
+      },
+      "SMSGateway.Server.Infrastructure/1.0.0": {
+        "runtime": {
+          "SMSGateway.Server.Infrastructure.dll": {}
+        },
+        "compile": {
+          "SMSGateway.Server.Infrastructure.dll": {}
+        }
+      },
       "SMSGateway.Server.Models/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.11",
@@ -1618,6 +1640,19 @@
         },
         "compile": {
           "SMSGateway.Server.Models.dll": {}
+        }
+      },
+      "SMSGateway.Server.Services/1.0.0": {
+        "dependencies": {
+          "SMSGateway.Repositories": "1.0.0",
+          "SMSGateway.Server.Infrastructure": "1.0.0",
+          "SMSGateway.Shared": "1.0.0"
+        },
+        "runtime": {
+          "SMSGateway.Server.Services.dll": {}
+        },
+        "compile": {
+          "SMSGateway.Server.Services.dll": {}
         }
       },
       "SMSGateway.Shared/1.0.0": {
@@ -4143,7 +4178,22 @@
       "serviceable": false,
       "sha512": ""
     },
+    "SMSGateway.Repositories/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SMSGateway.Server.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "SMSGateway.Server.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SMSGateway.Server.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

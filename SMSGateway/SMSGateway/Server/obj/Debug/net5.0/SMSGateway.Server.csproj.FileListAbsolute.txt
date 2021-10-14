@@ -104,3 +104,9 @@ C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway\Server\bin\Debug\ne
 C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway\Server\bin\Debug\net5.0\SMSGateway.Server.Models.pdb
 C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway\Server\obj\Debug\net5.0\SMSGateway.Server.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway\Server\bin\Debug\net5.0\SMSGateway.Repositories.dll
+C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway\Server\bin\Debug\net5.0\SMSGateway.Server.Infrastructure.dll
+C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway\Server\bin\Debug\net5.0\SMSGateway.Server.Services.dll
+C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway\Server\bin\Debug\net5.0\SMSGateway.Repositories.pdb
+C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway\Server\bin\Debug\net5.0\SMSGateway.Server.Infrastructure.pdb
+C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway\Server\bin\Debug\net5.0\SMSGateway.Server.Services.pdb

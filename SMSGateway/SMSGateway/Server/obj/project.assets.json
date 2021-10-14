@@ -1829,6 +1829,29 @@
           "bin/placeholder/SMSGateway.Client.dll": {}
         }
       },
+      "SMSGateway.Repositories/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "SMSGateway.Server.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SMSGateway.Repositories.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SMSGateway.Repositories.dll": {}
+        }
+      },
+      "SMSGateway.Server.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/SMSGateway.Server.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SMSGateway.Server.Infrastructure.dll": {}
+        }
+      },
       "SMSGateway.Server.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -1842,6 +1865,21 @@
         },
         "runtime": {
           "bin/placeholder/SMSGateway.Server.Models.dll": {}
+        }
+      },
+      "SMSGateway.Server.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "SMSGateway.Repositories": "1.0.0",
+          "SMSGateway.Server.Infrastructure": "1.0.0",
+          "SMSGateway.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SMSGateway.Server.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SMSGateway.Server.Services.dll": {}
         }
       },
       "SMSGateway.Shared/1.0.0": {
@@ -6426,10 +6464,25 @@
       "path": "../Client/SMSGateway.Client.csproj",
       "msbuildProject": "../Client/SMSGateway.Client.csproj"
     },
+    "SMSGateway.Repositories/1.0.0": {
+      "type": "project",
+      "path": "../../SMSGateway.Repositories/SMSGateway.Repositories.csproj",
+      "msbuildProject": "../../SMSGateway.Repositories/SMSGateway.Repositories.csproj"
+    },
+    "SMSGateway.Server.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../../SMSGateway.Server.Infrastructure/SMSGateway.Server.Infrastructure.csproj",
+      "msbuildProject": "../../SMSGateway.Server.Infrastructure/SMSGateway.Server.Infrastructure.csproj"
+    },
     "SMSGateway.Server.Models/1.0.0": {
       "type": "project",
       "path": "../../SMSGateway.Server.Models/SMSGateway.Server.Models.csproj",
       "msbuildProject": "../../SMSGateway.Server.Models/SMSGateway.Server.Models.csproj"
+    },
+    "SMSGateway.Server.Services/1.0.0": {
+      "type": "project",
+      "path": "../../SMSGateway.Server.Services/SMSGateway.Server.Services.csproj",
+      "msbuildProject": "../../SMSGateway.Server.Services/SMSGateway.Server.Services.csproj"
     },
     "SMSGateway.Shared/1.0.0": {
       "type": "project",
@@ -6446,7 +6499,10 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.11",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.11",
       "SMSGateway.Client >= 1.0.0",
+      "SMSGateway.Repositories >= 1.0.0",
+      "SMSGateway.Server.Infrastructure >= 1.0.0",
       "SMSGateway.Server.Models >= 1.0.0",
+      "SMSGateway.Server.Services >= 1.0.0",
       "SMSGateway.Shared >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.2",
       "Swashbuckle.AspNetCore.Annotations >= 6.2.2",
@@ -6480,8 +6536,17 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "C:\\Users\\myspa\\source\\repos\\SMSGateway\\SMSGateway\\SMSGateway.Repositories\\SMSGateway.Repositories.csproj": {
+              "projectPath": "C:\\Users\\myspa\\source\\repos\\SMSGateway\\SMSGateway\\SMSGateway.Repositories\\SMSGateway.Repositories.csproj"
+            },
+            "C:\\Users\\myspa\\source\\repos\\SMSGateway\\SMSGateway\\SMSGateway.Server.Infrastructure\\SMSGateway.Server.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\myspa\\source\\repos\\SMSGateway\\SMSGateway\\SMSGateway.Server.Infrastructure\\SMSGateway.Server.Infrastructure.csproj"
+            },
             "C:\\Users\\myspa\\source\\repos\\SMSGateway\\SMSGateway\\SMSGateway.Server.Models\\SMSGateway.Server.Models.csproj": {
               "projectPath": "C:\\Users\\myspa\\source\\repos\\SMSGateway\\SMSGateway\\SMSGateway.Server.Models\\SMSGateway.Server.Models.csproj"
+            },
+            "C:\\Users\\myspa\\source\\repos\\SMSGateway\\SMSGateway\\SMSGateway.Server.Services\\SMSGateway.Server.Services.csproj": {
+              "projectPath": "C:\\Users\\myspa\\source\\repos\\SMSGateway\\SMSGateway\\SMSGateway.Server.Services\\SMSGateway.Server.Services.csproj"
             },
             "C:\\Users\\myspa\\source\\repos\\SMSGateway\\SMSGateway\\SMSGateway\\Client\\SMSGateway.Client.csproj": {
               "projectPath": "C:\\Users\\myspa\\source\\repos\\SMSGateway\\SMSGateway\\SMSGateway\\Client\\SMSGateway.Client.csproj"

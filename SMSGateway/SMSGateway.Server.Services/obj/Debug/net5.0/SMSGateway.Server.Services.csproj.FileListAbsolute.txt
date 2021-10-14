@@ -10,3 +10,12 @@ C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway.Server.Services\obj
 C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway.Server.Services\obj\Debug\net5.0\SMSGateway.Server.Services.dll
 C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway.Server.Services\obj\Debug\net5.0\ref\SMSGateway.Server.Services.dll
 C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway.Server.Services\obj\Debug\net5.0\SMSGateway.Server.Services.pdb
+C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway.Server.Services\bin\Debug\net5.0\SMSGateway.Repositories.dll
+C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway.Server.Services\bin\Debug\net5.0\SMSGateway.Server.Infrastructure.dll
+C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway.Server.Services\bin\Debug\net5.0\SMSGateway.Server.Models.dll
+C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway.Server.Services\bin\Debug\net5.0\SMSGateway.Shared.dll
+C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway.Server.Services\bin\Debug\net5.0\SMSGateway.Repositories.pdb
+C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway.Server.Services\bin\Debug\net5.0\SMSGateway.Server.Infrastructure.pdb
+C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway.Server.Services\bin\Debug\net5.0\SMSGateway.Shared.pdb
+C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway.Server.Services\bin\Debug\net5.0\SMSGateway.Server.Models.pdb
+C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway.Server.Services\obj\Debug\net5.0\SMSGateway.Server.Services.csproj.CopyComplete

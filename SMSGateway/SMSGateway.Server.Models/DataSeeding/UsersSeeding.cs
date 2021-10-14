@@ -46,8 +46,8 @@ namespace SMSGateway.Server.Models.UsersSeeding
                 //Create user
                 var superUser = new ApplicationUser
                 {
-                    Email = "filbert@nicholas93@gmail.com",
-                    UserName = "filbert@nicholas93@gmail.com"
+                    Email = "filbert.nicholas93@gmail.com",
+                    UserName = "filbert.nicholas93@gmail.com"
                 };
 
                 await _userManager.CreateAsync(superUser, "P@ssw0rd.123");

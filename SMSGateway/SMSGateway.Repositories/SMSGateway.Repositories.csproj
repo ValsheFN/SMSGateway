@@ -4,4 +4,8 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SMSGateway.Server.Models\SMSGateway.Server.Models.csproj" />
+  </ItemGroup>
+
 </Project>

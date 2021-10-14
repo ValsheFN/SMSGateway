@@ -1,7 +1,7 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-C11JBfZyop7WHBnmr4Ig3vvhtIQTvhvp\/tn4u+bcijM=",
+      "hash": "sha256-GY9mJwNyZJJ2aaIf9arhbRilj5uAAlZRTalJLNFjluQ=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -785,19 +785,19 @@
       "url": "_framework\/dotnet.5.0.10.js"
     },
     {
-      "hash": "sha256-CMr3OXqooHVZ0yRo6k2XwEz3Sl3NNXA82+dNNUgt\/HA=",
+      "hash": "sha256-7jvAAoFuzjsFUHyVwx\/DKOC8tfQ9ERcBTldqbb3\/3wE=",
       "url": "_framework\/SMSGateway.Shared.dll"
     },
     {
-      "hash": "sha256-yiO9NO328IFyhLn3vU+uhaLUDQ+2f0wnlVTw29hEC24=",
+      "hash": "sha256-JPAX7eSVnCxHDhdVIAcDhgsyMdV2Q9gWxKVKqrGBDmQ=",
       "url": "_framework\/SMSGateway.Shared.pdb"
     },
     {
-      "hash": "sha256-YUDxkf6kWSmTc3Mm0CNZgZHawqXGHapi16fyH6gR++8=",
+      "hash": "sha256-beWVnsnzT49vbsUArHS349JU3ncH+WJ2XObtaImRR3k=",
       "url": "_framework\/SMSGateway.Client.dll"
     },
     {
-      "hash": "sha256-JwNNFK5Eu3qmkKb7hjtHpja0knW+gkOHtqGy4nfGcyU=",
+      "hash": "sha256-CCO7LrrjvuFA2D68aaFTz+ddOgruJAbxg1BJOm8BQ0w=",
       "url": "_framework\/SMSGateway.Client.pdb"
     },
     {
@@ -1585,7 +1585,7 @@
       "url": "_framework\/dotnet.5.0.10.js.gz"
     },
     {
-      "hash": "sha256-MXz\/FWtD1tY3eCAVtMvE\/E8XD6TXpTclb5NChujQybI=",
+      "hash": "sha256-XSRqkslr9z0NkPN6EzPMem5bBb0KyomSuRxzxEXd6xo=",
       "url": "_framework\/SMSGateway.Shared.dll.gz"
     },
     {
@@ -1661,5 +1661,5 @@
       "url": "SMSGateway.Client.bundle.scp.css"
     }
   ],
-  "version": "iP2pAJX8"
+  "version": "X9MDiv+H"
 };

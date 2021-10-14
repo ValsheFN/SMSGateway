@@ -20,7 +20,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\SMSGateway.Repositories\SMSGateway.Repositories.csproj" />
+    <ProjectReference Include="..\..\SMSGateway.Server.Infrastructure\SMSGateway.Server.Infrastructure.csproj" />
     <ProjectReference Include="..\..\SMSGateway.Server.Models\SMSGateway.Server.Models.csproj" />
+    <ProjectReference Include="..\..\SMSGateway.Server.Services\SMSGateway.Server.Services.csproj" />
     <ProjectReference Include="..\Client\SMSGateway.Client.csproj" />
     <ProjectReference Include="..\Shared\SMSGateway.Shared.csproj" />
   </ItemGroup>
