@@ -16,6 +16,9 @@ using SMSGateway.Server.Models.UsersSeeding;
 using SMSGateway.Repositories;
 using SMSGateway.Server.Infrastructure;
 using SMSGateway.Server.Services;
+using Microsoft.OpenApi.Models;
+using System;
+using Microsoft.AspNetCore.Mvc;
 
 namespace SMSGateway.Server
 {
@@ -75,10 +78,63 @@ namespace SMSGateway.Server
                 Key = Configuration["AuthSettings:Key"]
             });
 
+            services.AddTransient<IMailService, SendMailService>();
             services.AddScoped<IUsersService, UsersService>();
             services.AddControllersWithViews();
             services.AddRazorPages();
 
+            services.AddVersionedApiExplorer(c =>
+            {
+                c.GroupNameFormat = "'v'VVV";
+                c.SubstituteApiVersionInUrl = true;
+                c.AssumeDefaultVersionWhenUnspecified = true;
+                c.DefaultApiVersion = new ApiVersion(1, 0);
+            });
+
+            services.AddApiVersioning(c =>
+            {
+                c.ReportApiVersions = true;
+                c.AssumeDefaultVersionWhenUnspecified = true;
+                c.DefaultApiVersion = new ApiVersion(1, 0);
+            });
+
+            services.AddSwaggerGen(c =>
+            {
+                c.EnableAnnotations();
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "SMS Gateway API", Version = "v1" });
+                c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+                {
+                    In = ParameterLocation.Header,
+                    Description = "Please insert token",
+                    Name = "Authorization",
+                    Type = SecuritySchemeType.Http,
+                    BearerFormat = "JWT",
+                    Scheme = "bearer"
+                });
+                c.AddSecurityRequirement(new OpenApiSecurityRequirement
+                {{
+                    new OpenApiSecurityScheme
+                    {
+                        Reference=new OpenApiReference
+                        {
+                            Type=ReferenceType.SecurityScheme,
+                            Id="Bearer"
+                        }
+                    },
+                    new String[]{ }
+                }});
+            });
+
+            /*services.AddIdentity<ApplicationUser, IdentityRole>(options =>
+            {
+                options.Password.RequiredLength = 6;
+                options.Password.RequireLowercase = false;
+                options.Password.RequireUppercase = false;
+                options.Password.RequireNonAlphanumeric = false;
+                options.Password.RequireDigit = false;
+            })
+            .AddEntityFrameworkStores<ApplicationDBContext>()
+            .AddDefaultTokenProviders();*/
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -104,7 +160,13 @@ namespace SMSGateway.Server
             app.UseBlazorFrameworkFiles();
             app.UseStaticFiles();
 
+            app.UseSwagger();
+            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "SMS Gateway API v1"));
+
             app.UseRouting();
+
+            app.UseAuthentication();
+            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {

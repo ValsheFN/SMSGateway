@@ -18,4 +18,3 @@ C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway.Server.Services\bin
 C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway.Server.Services\bin\Debug\net5.0\SMSGateway.Server.Infrastructure.pdb
 C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway.Server.Services\bin\Debug\net5.0\SMSGateway.Shared.pdb
 C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway.Server.Services\bin\Debug\net5.0\SMSGateway.Server.Models.pdb
-C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway.Server.Services\obj\Debug\net5.0\SMSGateway.Server.Services.csproj.CopyComplete

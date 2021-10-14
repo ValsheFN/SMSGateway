@@ -12,4 +12,6 @@ C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway.Repositories\obj\De
 C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway.Repositories\obj\Debug\net5.0\SMSGateway.Repositories.pdb
 C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway.Repositories\bin\Debug\net5.0\SMSGateway.Server.Models.dll
 C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway.Repositories\bin\Debug\net5.0\SMSGateway.Server.Models.pdb
+C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway.Repositories\bin\Debug\net5.0\SMSGateway.Shared.dll
+C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway.Repositories\bin\Debug\net5.0\SMSGateway.Shared.pdb
 C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway.Repositories\obj\Debug\net5.0\SMSGateway.Repositories.csproj.CopyComplete

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using SMSGateway.Server.Models.Models;
+using SMSGateway.Shared;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,13 +12,16 @@ namespace SMSGateway.Repositories
 {
     public interface IUsersRepository
     {
-        Task<ApplicationUser> GetUserByNameAsync(string name);
-        Task<ApplicationUser> GetUserByIdAsync(string id);
-        Task<ApplicationUser> GetUserByEmailAsync(string email);
         Task CreateUserAsync(ApplicationUser user, string password, string role);
         Task<bool> CheckPasswordAsync(ApplicationUser user, string password);
-        Task<string> GetUserRoleAsync(ApplicationUser user);
+        Task<UserManagerResponse> ConfirmEmailAsync(string userId, string token);
+        Task<UserManagerResponse> ForgetPasswordAsync(string email);
+        Task<UserManagerResponse> ResetPasswordAsync(ResetPasswordRequest model);
 
+        Task<ApplicationUser> GetUserByNameAsync(string name);
+        Task<ApplicationUser> GetUserByIdAsync(string id);
+        Task<ApplicationUser> GetUserByEmailAsync(string email); 
+        Task<string> GetUserRoleAsync(ApplicationUser user);
     }
 
     public class IdentityUsersRepository : IUsersRepository
@@ -31,16 +35,32 @@ namespace SMSGateway.Repositories
             _roleManager = roleManager;
         }
 
-        public async Task<bool> CheckPasswordAsync(ApplicationUser user, string password)
-        {
-            return await _userManager.CheckPasswordAsync(user, password);
-        }
-
         public async Task CreateUserAsync(ApplicationUser user, string password, string role)
         {
             await _userManager.CreateAsync(user, password);
             await _userManager.AddToRoleAsync(user, role);
         }
+
+        public async Task<bool> CheckPasswordAsync(ApplicationUser user, string password)
+        {
+            return await _userManager.CheckPasswordAsync(user, password);
+        }
+
+        public Task<UserManagerResponse> ConfirmEmailAsync(string userId, string token)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<UserManagerResponse> ForgetPasswordAsync(string email)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<UserManagerResponse> ResetPasswordAsync(ResetPasswordRequest model)
+        {
+            throw new NotImplementedException();
+        }
+
 
         public async Task<ApplicationUser> GetUserByEmailAsync(string email)
         {

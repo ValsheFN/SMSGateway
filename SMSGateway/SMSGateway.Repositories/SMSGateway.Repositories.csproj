@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SMSGateway.Server.Models\SMSGateway.Server.Models.csproj" />
+    <ProjectReference Include="..\SMSGateway\Shared\SMSGateway.Shared.csproj" />
   </ItemGroup>
 
 </Project>

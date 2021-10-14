@@ -5,6 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentEmail.Core" Version="3.0.0" />
+    <PackageReference Include="FluentEmail.Smtp" Version="3.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\SMSGateway.Repositories\SMSGateway.Repositories.csproj" />
     <ProjectReference Include="..\SMSGateway.Server.Infrastructure\SMSGateway.Server.Infrastructure.csproj" />
     <ProjectReference Include="..\SMSGateway\Shared\SMSGateway.Shared.csproj" />

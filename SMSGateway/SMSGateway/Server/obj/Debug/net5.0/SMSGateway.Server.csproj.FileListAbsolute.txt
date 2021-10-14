@@ -110,3 +110,6 @@ C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway\Server\bin\Debug\ne
 C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway\Server\bin\Debug\net5.0\SMSGateway.Repositories.pdb
 C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway\Server\bin\Debug\net5.0\SMSGateway.Server.Infrastructure.pdb
 C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway\Server\bin\Debug\net5.0\SMSGateway.Server.Services.pdb
+C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway\Server\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+C:\Users\myspa\source\repos\SMSGateway\SMSGateway\SMSGateway\Server\obj\Debug\net5.0\Razor\Pages\ResetPassword.cshtml.g.cs

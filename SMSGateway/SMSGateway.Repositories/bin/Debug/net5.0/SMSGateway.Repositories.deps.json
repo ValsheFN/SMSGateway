@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v5.0": {
       "SMSGateway.Repositories/1.0.0": {
         "dependencies": {
-          "SMSGateway.Server.Models": "1.0.0"
+          "SMSGateway.Server.Models": "1.0.0",
+          "SMSGateway.Shared": "1.0.0"
         },
         "runtime": {
           "SMSGateway.Repositories.dll": {}
@@ -1105,6 +1106,11 @@
         "runtime": {
           "SMSGateway.Server.Models.dll": {}
         }
+      },
+      "SMSGateway.Shared/1.0.0": {
+        "runtime": {
+          "SMSGateway.Shared.dll": {}
+        }
       }
     }
   },
@@ -1808,6 +1814,11 @@
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
     "SMSGateway.Server.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SMSGateway.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -195,13 +195,13 @@
       "mscorlib.dll": "sha256-7WjHY56PbksCp7YOxNV59r6MqLujjAH8vhnMJ+zVezY=",
       "netstandard.dll": "sha256-5TcSqPhm3fAT6s3NH7+BMGakcfGgZGd3\/\/cVwVs2VPI=",
       "System.Private.CoreLib.dll": "sha256-VJv3DLM\/G0m\/RnTeWL9X8mkbxlsn8nNRhm0BHYEY+uo=",
-      "SMSGateway.Shared.dll": "sha256-7jvAAoFuzjsFUHyVwx\/DKOC8tfQ9ERcBTldqbb3\/3wE=",
-      "SMSGateway.Client.dll": "sha256-beWVnsnzT49vbsUArHS349JU3ncH+WJ2XObtaImRR3k="
+      "SMSGateway.Shared.dll": "sha256-dIstqMMG\/hxydSIxQA+pPM+rU+OMInxqH9l3vjW+Z1Q=",
+      "SMSGateway.Client.dll": "sha256-oER53j00heKRQyDm9OS6jLsd22BD7iFrF5Gg1hdKFMU="
     },
     "lazyAssembly": null,
     "pdb": {
-      "SMSGateway.Shared.pdb": "sha256-JPAX7eSVnCxHDhdVIAcDhgsyMdV2Q9gWxKVKqrGBDmQ=",
-      "SMSGateway.Client.pdb": "sha256-CCO7LrrjvuFA2D68aaFTz+ddOgruJAbxg1BJOm8BQ0w="
+      "SMSGateway.Shared.pdb": "sha256-K1fWRHJQwv0RnfllfbZM1wJe3U4vKLIwxcSf42WMOKQ=",
+      "SMSGateway.Client.pdb": "sha256-Asj7VLuoVA2f6hYvau0jM9AjeCxjstTVUfBxtp2Jvr8="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-PvlHrby1PYtdX46ITs6pB8iDNqXNcewh8Eoa\/Gm2+GM=",
