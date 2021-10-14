@@ -1,0 +1,329 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\myspa\\source\\repos\\SMSGateway\\SMSGateway\\SMSGateway.Server.Services\\SMSGateway.Server.Services.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\myspa\\source\\repos\\SMSGateway\\SMSGateway\\SMSGateway.Repositories\\SMSGateway.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\myspa\\source\\repos\\SMSGateway\\SMSGateway\\SMSGateway.Repositories\\SMSGateway.Repositories.csproj",
+        "projectName": "SMSGateway.Repositories",
+        "projectPath": "C:\\Users\\myspa\\source\\repos\\SMSGateway\\SMSGateway\\SMSGateway.Repositories\\SMSGateway.Repositories.csproj",
+        "packagesPath": "C:\\Users\\myspa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\myspa\\source\\repos\\SMSGateway\\SMSGateway\\SMSGateway.Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\myspa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\myspa\\source\\repos\\SMSGateway\\SMSGateway\\SMSGateway.Server.Models\\SMSGateway.Server.Models.csproj": {
+                "projectPath": "C:\\Users\\myspa\\source\\repos\\SMSGateway\\SMSGateway\\SMSGateway.Server.Models\\SMSGateway.Server.Models.csproj"
+              },
+              "C:\\Users\\myspa\\source\\repos\\SMSGateway\\SMSGateway\\SMSGateway\\Shared\\SMSGateway.Shared.csproj": {
+                "projectPath": "C:\\Users\\myspa\\source\\repos\\SMSGateway\\SMSGateway\\SMSGateway\\Shared\\SMSGateway.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\myspa\\source\\repos\\SMSGateway\\SMSGateway\\SMSGateway.Server.Infrastructure\\SMSGateway.Server.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\myspa\\source\\repos\\SMSGateway\\SMSGateway\\SMSGateway.Server.Infrastructure\\SMSGateway.Server.Infrastructure.csproj",
+        "projectName": "SMSGateway.Server.Infrastructure",
+        "projectPath": "C:\\Users\\myspa\\source\\repos\\SMSGateway\\SMSGateway\\SMSGateway.Server.Infrastructure\\SMSGateway.Server.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\myspa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\myspa\\source\\repos\\SMSGateway\\SMSGateway\\SMSGateway.Server.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\myspa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\myspa\\source\\repos\\SMSGateway\\SMSGateway\\SMSGateway.Server.Models\\SMSGateway.Server.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\myspa\\source\\repos\\SMSGateway\\SMSGateway\\SMSGateway.Server.Models\\SMSGateway.Server.Models.csproj",
+        "projectName": "SMSGateway.Server.Models",
+        "projectPath": "C:\\Users\\myspa\\source\\repos\\SMSGateway\\SMSGateway\\SMSGateway.Server.Models\\SMSGateway.Server.Models.csproj",
+        "packagesPath": "C:\\Users\\myspa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\myspa\\source\\repos\\SMSGateway\\SMSGateway\\SMSGateway.Server.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\myspa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\myspa\\source\\repos\\SMSGateway\\SMSGateway\\SMSGateway.Server.Services\\SMSGateway.Server.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\myspa\\source\\repos\\SMSGateway\\SMSGateway\\SMSGateway.Server.Services\\SMSGateway.Server.Services.csproj",
+        "projectName": "SMSGateway.Server.Services",
+        "projectPath": "C:\\Users\\myspa\\source\\repos\\SMSGateway\\SMSGateway\\SMSGateway.Server.Services\\SMSGateway.Server.Services.csproj",
+        "packagesPath": "C:\\Users\\myspa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\myspa\\source\\repos\\SMSGateway\\SMSGateway\\SMSGateway.Server.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\myspa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\myspa\\source\\repos\\SMSGateway\\SMSGateway\\SMSGateway.Repositories\\SMSGateway.Repositories.csproj": {
+                "projectPath": "C:\\Users\\myspa\\source\\repos\\SMSGateway\\SMSGateway\\SMSGateway.Repositories\\SMSGateway.Repositories.csproj"
+              },
+              "C:\\Users\\myspa\\source\\repos\\SMSGateway\\SMSGateway\\SMSGateway.Server.Infrastructure\\SMSGateway.Server.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\myspa\\source\\repos\\SMSGateway\\SMSGateway\\SMSGateway.Server.Infrastructure\\SMSGateway.Server.Infrastructure.csproj"
+              },
+              "C:\\Users\\myspa\\source\\repos\\SMSGateway\\SMSGateway\\SMSGateway\\Shared\\SMSGateway.Shared.csproj": {
+                "projectPath": "C:\\Users\\myspa\\source\\repos\\SMSGateway\\SMSGateway\\SMSGateway\\Shared\\SMSGateway.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "FluentEmail.Core": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "FluentEmail.Smtp": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.AspNetCore.WebUtilities": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\myspa\\source\\repos\\SMSGateway\\SMSGateway\\SMSGateway\\Shared\\SMSGateway.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\myspa\\source\\repos\\SMSGateway\\SMSGateway\\SMSGateway\\Shared\\SMSGateway.Shared.csproj",
+        "projectName": "SMSGateway.Shared",
+        "projectPath": "C:\\Users\\myspa\\source\\repos\\SMSGateway\\SMSGateway\\SMSGateway\\Shared\\SMSGateway.Shared.csproj",
+        "packagesPath": "C:\\Users\\myspa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\myspa\\source\\repos\\SMSGateway\\SMSGateway\\SMSGateway\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\myspa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
