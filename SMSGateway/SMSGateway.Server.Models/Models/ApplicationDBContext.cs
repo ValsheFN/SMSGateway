@@ -14,7 +14,7 @@ namespace SMSGateway.Server.Models.Models
         {
 
         }
-        public DbSet<Contact> Contacts { get; set; }
+        public DbSet<Contact> Contact { get; set; }
         public DbSet<ContactGroup> ContactGroups { get; set; }
         public DbSet<Group> Groups { get; set; }
         public DbSet<Log> Logs { get; set; }

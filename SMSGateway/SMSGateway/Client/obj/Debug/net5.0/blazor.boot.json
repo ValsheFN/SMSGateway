@@ -200,6 +200,7 @@
     },
     "lazyAssembly": null,
     "pdb": {
+      "SMSGateway.Shared.pdb": "sha256-K1fWRHJQwv0RnfllfbZM1wJe3U4vKLIwxcSf42WMOKQ=",
       "SMSGateway.Client.pdb": "sha256-Asj7VLuoVA2f6hYvau0jM9AjeCxjstTVUfBxtp2Jvr8="
     },
     "runtime": {

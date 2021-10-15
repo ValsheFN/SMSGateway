@@ -103,7 +103,7 @@ namespace SMSGateway.Server.Controllers
 
         // api/authentication/resetpassword
         [HttpGet("ResetPassword")]
-        public async Task<IActionResult> ResetPassword([FromForm] ResetPasswordRequest model)
+        public async Task<IActionResult> ResetPassword([FromForm]ResetPasswordRequest model)
         {
             if (ModelState.IsValid)
             {
